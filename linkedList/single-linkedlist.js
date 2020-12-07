@@ -9,7 +9,7 @@ class Node {
         this.next = null;
     }
 }
-class LinkedList {
+class SingleLinkedList {
     constructor() {
         this.head = new Node('head');
     }
@@ -74,3 +74,4 @@ class LinkedList {
         return count === index ? current : -1;
     }
 }
+module.exports = SingleLinkedList;
