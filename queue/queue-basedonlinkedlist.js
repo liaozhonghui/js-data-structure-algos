@@ -35,6 +35,13 @@ class QueueBasedLinkedList {
             return value;
         }
     }
+    display () {
+        let res = 0;
+        while (res != -1) {
+            res = this.dequeue();
+            console.log(res);
+        }
+    }
 }
 
 /**
@@ -44,9 +51,4 @@ const queue = new QueueBasedLinkedList();
 queue.enqueue(1);
 queue.enqueue(2);
 queue.enqueue(3);
-
-let res = 0;
-while(res != -1) {
-    res = queue.dequeue();
-    console.log(res);
-}
+queue.display();
