@@ -1,0 +1,15 @@
+{
+  "name": "my-js-data-structure-algos",
+  "version": "1.0.0",
+  "description": "纪录数据结构与算法，JavaScript相关实现 ## 时间复杂度分析 - 平均时间复杂度 - 最好时间复杂度 - 最坏时间复杂度 - 时间复杂度的摊还分析法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-sdsl": "^4.4.0"
+  }
+}
